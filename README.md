@@ -37,9 +37,9 @@
 5. Edit the Annohub configuration file (you can use /src/main/resources/FIDConfig.xml as a template)
 
    Database setup</br>
-   a. Gremlin.Server.conf - /your/path/to/apache-tinkerpop-gremlin-server-3.3.10/conf/gremlin-server-neo4j.yaml
-
-   b. Gremlin.Server.home - /your/path/to/apache-tinkerpop-gremlin-server-3.3.10
+   a. Gremlin.Server.home - /your/path/to/apache-tinkerpop-gremlin-server-3.3.10
+   
+   b. Gremlin.Server.conf - /your/path/to/apache-tinkerpop-gremlin-server-3.3.10/conf/gremlin-server-neo4j.yaml
 
    c. Gremlin.Server.data - /another database directory (this is different from the directory entered in step 3 !)
 
@@ -48,7 +48,7 @@
 
    b. RunParameter.ServiceUploadDirectory - web-application-upload-directory (e.g. /tmp/annohub/uploads)
 
-   c. RunParameter.decompressionUtility - enter one of which 7z or (7za) 
+   c. RunParameter.decompressionUtility - enter 7z or (7za) 
 
 
 6. For easy maintance of your configuration you can set the environment variable FID_CONFIG_FILE to the location of you configuration file 
@@ -70,6 +70,6 @@
    where seed_file contains a list of language resource URLs (one URL per line)
 
 
-10. For the deployment of the Annohub web-application an instance of TomEE (https://tomee.apache.org/) is required. 
+10. For the deployment of the Annohub web-application an installation of TomEE (https://tomee.apache.org/) is required
 
  
