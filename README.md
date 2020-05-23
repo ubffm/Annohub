@@ -25,7 +25,7 @@
   /reference/#neo4j-gremlin.
 
 
-3. Edit the Gremlin Server configuration file conf/neo4j-empty.properties abd set the server's database directory
+3. Edit the Gremlin Server configuration file conf/neo4j-empty.properties to set the server's database directory
 
    gremlin.neo4j.directory=/your/server/directory
 
