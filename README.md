@@ -35,14 +35,14 @@ The process of plugin installation is handled by Grape, which helps resolve depe
 
 5. Edit the Annohub configuration file (you can use /src/main/resources/FIDConfig.xml as a template)
 
-   Database setup
+   Database setup</br>
    a. Gremlin.Server.conf - /your/path/to/apache-tinkerpop-gremlin-server-3.3.10/conf/gremlin-server-neo4j.yaml
 
    b. Gremlin.Server.home - /your/path/to/apache-tinkerpop-gremlin-server-3.3.10
 
    c. Gremlin.Server.data - /another database directory (this is different from the directory entered in step 3 !)
 
-   Application setup
+   Application setup</br>
    a. RunParameter.downloadFolder - crawler-download-directory (e.g. /tmp/annohub/downloads)
 
    b. RunParameter.ServiceUploadDirectory - web-application-upload-directory (e.g. /tmp/annohub/uploads)
@@ -62,7 +62,7 @@ The process of plugin installation is handled by Grape, which helps resolve depe
 
    fid -init
 
-9. After initalization is complete you can parse data 
+9. After initalization is finished you can parse data 
 
    fid -execute -seed seed_file 
 
