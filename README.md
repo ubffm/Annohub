@@ -63,7 +63,7 @@
 
    fid -init
 
-9. After initalization is finished you can parse data 
+9. After initalization has finished you can parse data 
 
    fid -execute -seed seed_file 
 
