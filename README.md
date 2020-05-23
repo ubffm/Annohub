@@ -21,8 +21,7 @@
 
 
   The process of plugin installation is handled by Grape, which helps resolve dependencies into the classpath. If you run   
-  into errors you can obtain further information on the installation of Grape at https://tinkerpop.apache.org/docs/current
-  /reference/#neo4j-gremlin.
+  into errors you can obtain further information on the installation of Grape at https://tinkerpop.apache.org/docs/current/reference/#neo4j-gremlin
 
 
 3. Edit the Gremlin Server configuration file conf/neo4j-empty.properties to set the server's database directory
