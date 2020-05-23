@@ -61,11 +61,11 @@
 
 8. Initialize the Annohub model database
 
-   fid -init
+   run.sh -init
 
 9. After initalization has finished you can parse data 
 
-   fid -execute -seed seed_file 
+   run.sh -execute -seed seed_file 
 
    where seed_file contains a list of language resource URLs (one URL per line)
 
