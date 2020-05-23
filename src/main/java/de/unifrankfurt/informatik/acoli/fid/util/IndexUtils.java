@@ -205,7 +205,7 @@ public class IndexUtils {
 				put("RunParameter.useBllOntologiesFromSVN", false);
 				put("RunParameter.BLLOntologiesDirectory", "");
 				put("RunParameter.convert2RdfXmlScript","/bash/convert2RdfXml");
-				put("RunParameter.debugOutput", true);
+				put("RunParameter.debugOutput", false);
 				put("RunParameter.guiPropertiesFile", "");
 				
 				put("Linghub.linghubDataDumpURL","http://linghub.org/linghub.nt.gz");
