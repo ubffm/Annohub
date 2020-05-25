@@ -6,7 +6,7 @@
    * Java runtime >= 1.8</br>
    * 7z (7za) file archiver utitily</br>
    * rapper rdf utility (http://librdf.org/raptor/)</br>
-   * TomEE >= 7.1.0  (https://tomee.apache.org/)</br>
+   * TomEE >= 7.1.0 (https://tomee.apache.org/)</br>
 
 1. Download Tinkerpop Gremlin Server version 3.3.10
 
