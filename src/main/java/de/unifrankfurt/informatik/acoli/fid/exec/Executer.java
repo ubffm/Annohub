@@ -383,7 +383,7 @@ public class Executer {
 			writer = new GWriterT (graph, fidConfig);
 			if (resetDataDbAtStartup) {
 				writer.deleteDatabase();
-				System.out.println("DELETING DATA DATABASE");
+				System.out.println("DELETING MODEL DATABASE");
 			}
 			break;
 		
@@ -393,7 +393,7 @@ public class Executer {
 			
 			if (resetDataDbAtStartup) {
 				writer.deleteDatabase();
-				System.out.println("DELETING DATA DATABASE");
+				System.out.println("DELETING MODEL DATABASE");
 			}
 			
 			if (dataDbConfig.getDatabaseImportJsonFile() != null) {
