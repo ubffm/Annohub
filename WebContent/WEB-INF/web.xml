@@ -123,7 +123,7 @@
         <role-name>role4711</role-name>
     </security-role>
     
-    
+    <?ignore
     <security-constraint>
 		<web-resource-collection>
 			<web-resource-name>Service</web-resource-name>
@@ -162,7 +162,7 @@
 	<login-config>
 		<auth-method>BASIC</auth-method>
 	</login-config>
-
+	?>
  
  <session-config>
   <session-timeout>-1</session-timeout>
