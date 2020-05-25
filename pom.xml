@@ -417,7 +417,7 @@ updated jackson from above
 				<artifactId>maven-shade-plugin</artifactId>
 				<executions>
 					<execution>
-						<phase>install</phase>
+						<phase>package</phase>
 						<goals>
 							<goal>shade</goal>
 						</goals>
