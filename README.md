@@ -76,7 +76,7 @@
 10. For the deployment of the Annohub web-application an installation of TomEE (https://tomee.apache.org/) is required</br>
     Please consider the following configuration options :</br>
     * CATALINA_OPTS=-Xmx4g -Xss5m
-    * in context.xml set <Resources cachingAllowed="true" cacheMaxSize="100000" />
+    * in context.xml set \<Resources cachingAllowed="true" cacheMaxSize="100000" \/\>
 
 11. For more inforamtion how to use the Annohub web-application please see the documentation file in the doc folder !
 
