@@ -1,5 +1,8 @@
 # Annohub
 
+
+**Installation**</br> 
+
 0. Prerequisites
 
    * Linux/Unix distribution</br>
@@ -21,7 +24,7 @@
 
 
   The process of plugin installation is handled by Grape, which helps resolve dependencies into the classpath. If you run   
-  into errors you can obtain further information on the installation of Grape at https://tinkerpop.apache.org/docs/current/reference/#neo4j-gremlin
+  into problems you can obtain further information on the installation of Grape at https://tinkerpop.apache.org/docs/current/reference/#neo4j-gremlin
 
 
 3. Edit the Gremlin Server configuration file conf/neo4j-empty.properties to set the server's database directory
@@ -70,6 +73,11 @@
    where seed_file contains a list of language resource URLs (one URL per line)
 
 
-10. For the deployment of the Annohub web-application an installation of TomEE (https://tomee.apache.org/) is required
+10. For the deployment of the Annohub web-application an installation of TomEE (https://tomee.apache.org/) is required</br>
+    Please consider the following configuration options :</br>
+    * CATALINA_OPTS=-Xmx4g -Xss5m
+    * in context.xml set <Resources cachingAllowed="true" cacheMaxSize="100000" />
+
+11. For more inforamtion how to use the Annohub web-application please see the documentation file in the doc folder !
 
  
