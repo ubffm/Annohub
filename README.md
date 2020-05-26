@@ -1,5 +1,7 @@
 # Annohub
-
+The application can be used to extract annotation information about applied annotation schemes and languages in annotated language resources like corpora, in various formats (e.g. RDF, CoNLL and XML). Results are made available via a web-interface that serves as a means to edit and export the harvested meta-data.</br>
+The work was  conducted  in the  context  of  the  Specialized  Information  Service  Lin-guistics  (FID),  funded  by  German  Research  Foundation(DFG/LIS,  2017-2019).</br>
+The documentation (in the doc folder) and a forthcoming paper give more in-depth information about the actual use-case. 
 
 **Installation**</br> 
 
@@ -78,6 +80,6 @@
     * CATALINA_OPTS=-Xmx4g -Xss5m
     * in context.xml set \<Resources cachingAllowed="true" cacheMaxSize="100000" \/\>
 
-11. For more inforamtion how to use the Annohub web-application please see the documentation file in the doc folder !
+11. For more information how to use the Annohub web-application please see the documentation in the doc folder !
 
  
