@@ -79,6 +79,4 @@ Annohub was  conducted  in the  context  of  the  Specialized  Information  Serv
     * CATALINA_OPTS=-Xmx4g -Xss5m
     * in context.xml set \<Resources cachingAllowed="true" cacheMaxSize="100000" \/\>
 
-11. You can find more information on how to use the Annohub web-application in the doc folder !
-
  
