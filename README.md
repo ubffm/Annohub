@@ -1,6 +1,6 @@
 # Annohub
 The application can be used to extract annotation information about applied annotation schemes and languages in annotated language resources like corpora, in various formats (e.g. RDF, CoNLL and XML). Results are made available via a web-interface that serves as a means to edit and export the harvested meta-data.</br>
-The work was  conducted  in the  context  of  the  Specialized  Information  Service  Lin-guistics  (FID),  funded  by  German  Research  Foundation(DFG/LIS,  2017-2019).</br>
+The work was  conducted  in the  context  of  the  Specialized  Information  Service  Linguistics  (FID),  funded  by  German  Research  Foundation(DFG/LIS,  2017-2019).</br>
 The documentation (in the doc folder) and a forthcoming paper give more in-depth information about the actual use-case. 
 
 **Installation**</br> 
