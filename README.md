@@ -1,7 +1,6 @@
 # Annohub
-The application can be used to extract annotation information about applied annotation schemes and languages in annotated language resources like corpora, in various formats (e.g. RDF, CoNLL and XML). Results are made available via a web-interface that serves as a means to edit and export the harvested meta-data.</br>
-The work was  conducted  in the  context  of  the  Specialized  Information  Service  Linguistics  (FID),  funded  by  German  Research  Foundation(DFG/LIS,  2017-2019).</br>
-The documentation (in the doc folder) and a forthcoming paper give more in-depth information about the actual use-case. 
+The application can be used to extract annotation information about applied annotation schemes and languages in annotated language resources like corpora, in various formats (e.g. RDF, CoNLL and XML). Results are made available via a web-interface that serves as a means to edit and export the harvested meta-data. A forthcoming paper as well as the manual in the doc folder give more in-depth information about its actual use-case.</br>
+Annohub was  conducted  in the  context  of  the  Specialized  Information  Service  Linguistics  (FID),  funded  by  German  Research  Foundation(DFG/LIS,  2017-2019).</br>
 
 **Installation**</br> 
 
@@ -56,7 +55,7 @@ The documentation (in the doc folder) and a forthcoming paper give more in-depth
    c. RunParameter.decompressionUtility - enter 7z or (7za) 
 
 
-6. For easy maintance of your configuration you can set the environment variable FID_CONFIG_FILE to the location of you configuration file 
+6. For easy maintenance of your configuration you can set the environment variable FID_CONFIG_FILE to the location of you configuration file 
 
 
 7. Build the Annohub application with maven
@@ -75,11 +74,11 @@ The documentation (in the doc folder) and a forthcoming paper give more in-depth
    where seed_file contains a list of language resource URLs (one URL per line)
 
 
-10. For the deployment of the Annohub web-application an installation of TomEE (https://tomee.apache.org/) is required</br>
+10. For the deployment of the Annohub web-application an installation of TomEE (https://tomee.apache.org/) is required.</br>
     Please consider the following configuration options :</br>
     * CATALINA_OPTS=-Xmx4g -Xss5m
     * in context.xml set \<Resources cachingAllowed="true" cacheMaxSize="100000" \/\>
 
-11. For more information how to use the Annohub web-application please see the documentation in the doc folder !
+11. You can find more information on how to use the Annohub web-application in the doc folder !
 
  
