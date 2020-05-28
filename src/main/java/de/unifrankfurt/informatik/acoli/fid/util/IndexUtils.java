@@ -253,26 +253,26 @@ public class IndexUtils {
 				
 				// legacy options
 				put("SearchEngine.SERVICE_URI","http://localhost:3030/ds/data");
-				put("SearchEngine.PATH-SearchTerms","/home/vifa/VifaRun/searchEngine/searchTerms.ttl");
-				put("SearchEngine.PATH-SearchTermsConcise","/home/vifa/VifaRun/searchEngine/searchterms_concise.ttl");
-				put("SearchEngine.PATH-OLiA-TDB","/home/vifa/olia-tdb/");
-				put("SearchEngine.PATH-SearchEngine-TDB","/home/vifa/se-tdb/");
-				put("SearchEngine.PATH-CONLL","/home/vifa/conll/");
-				put("SearchEngine.resultFile","/home/vifa/VifaRun/searchEngine/searchEngineResults.ttl");
-				put("SearchEngine.xmlExportFile","/home/vifa/VifaRun/searchEngine/ub-export.xml");
-				put("SearchEngine.xmlExportBase","/home/vifa/VifaRun/searchEngine/llod-mods-base.xml");
+				put("SearchEngine.PATH-SearchTerms","");
+				put("SearchEngine.PATH-SearchTermsConcise","");
+				put("SearchEngine.PATH-OLiA-TDB","");
+				put("SearchEngine.PATH-SearchEngine-TDB","");
+				put("SearchEngine.PATH-CONLL","");
+				put("SearchEngine.resultFile","");
+				put("SearchEngine.xmlExportFile","");
+				put("SearchEngine.xmlExportBase","");
 				put("SearchEngine.conciseSearchTerms",true);
 				
-				put("OliaSVN.path","/home/vifa/svn/vifa-owl/BLLThesaurus/bll-ontology.ttl");
-				//put("Clarin.path","/home/vifa/svn/vifa-owl/BLLThesaurus/bll-link.rdf");
-				//put("Clarin.path","/home/vifa/svn/olia-sf/trunk/owl/stable/bll-link.rdf");
-				put("OliaSVN.path","/home/vifa/svn/olia-sf/trunk/owl/stable/");
-				put("OliaSVN.path","/home/vifa/svn/olia-sf/trunk/owl/core/");
-				put("OliaSVN.path","/home/vifa/svn/olia-sf/trunk/owl/experimental/univ_dep/");
-				put("OliaSVN.path","/home/vifa/svn/olia-sf/trunk/owl/experimental/lexinfo/");
-				put("OliaSVN.path","/home/vifa/svn/olia-sf/trunk/owl/experimental/gold/");
-				put("OliaSVN.path","/home/vifa/svn/olia-sf/trunk/owl/experimental/dcr/6.owl");
-				put("OliaSVN.path","/home/vifa/svn/olia-sf/trunk/owl/experimental/dcr/dcr-link.rdf");
+				put("OliaSVN.path","");
+				//put("Clarin.path","");
+				//put("Clarin.path","");
+				put("OliaSVN.path","");
+				put("OliaSVN.path","");
+				put("OliaSVN.path","");
+				put("OliaSVN.path","");
+				put("OliaSVN.path","");
+				put("OliaSVN.path","");
+				put("OliaSVN.path","");
 				//put("OliaSVN.exception","multext_east");
 				put("OliaSVN.exception","");
 				put("OliaSVN.clarinQueries","old");
